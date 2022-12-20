@@ -1,0 +1,18 @@
+{
+    "messages":[
+        {"id":1, "message":"you are doing good"},
+        {"id":2, "message":"stand in front of the mirror to see your best friend"},
+        {"id":3, "message":"today I leave beind all the past traumas"},
+        {"id":4, "message":"I am in the best of my energy today"},
+        {"id":5, "message":"I greet people with care and affection"}
+      ],
+      "todos":[
+        {"id":1, "task":"learn react" , "isDone":false},
+        {"id":2, "task":"learn mean" , "isDone":false},
+        {"id":3, "task":"learn devops" , "isDone":false},
+        {"id":4, "task":"learn cloud" , "isDone":false},
+        {"id":5, "task":"learn datascience" , "isDone":false},
+        {"id":6, "task":"learn daa" , "isDone":false}
+      ]
+
+    }
