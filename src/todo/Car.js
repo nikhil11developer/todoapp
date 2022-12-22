@@ -1,11 +1,15 @@
-
-
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-function Car() {
-  return <h2>Hi, I am a Car!</h2>;
+function Football() {
+  const shoot = (a) => {
+    alert(a);
+  }
+
+  return (
+    <button onClick={() => shoot("Goal!")}>Take the shot!</button>
+  );
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Car />);
+root.render(<Football />);

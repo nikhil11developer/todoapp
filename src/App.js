@@ -8,6 +8,9 @@ import Login from './todo/Login';
 import Welcome from './todo/Welcome';
 import AuthenticationService from './service/AuthenticationService';
 import Todos from './todo/Todos';
+import UpdateTodo from './todo/UpdateTodo';
+import Reducer from './todo/Reducer';
+import TaskReducer from './todo/TaskReducer';
 
 
 function App() {
@@ -27,6 +30,8 @@ function App() {
           <Route path="login" element={<Login login={login} />}></Route>
           <Route path="welcome" element={<Welcome />}></Route>
           <Route path="todos" element={<Todos />}></Route>
+          <Route path="updatetodo" element={<UpdateTodo />}></Route>
+          <Route path="reducer" element={<TaskReducer />}></Route>
         </Routes>
       </BrowserRouter>
     </Base>
