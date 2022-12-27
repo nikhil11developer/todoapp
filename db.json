@@ -24,39 +24,52 @@
   "todos": [
     {
       "id": 1,
-      "task": "learn react",
-      "prerequisites": "javascript",
+      "task": "learn Sql server",
+      "prerequisites": "basic c language",
       "isDone": false
     },
     {
-      "id": 2,
-      "task": "learn angular",
-      "prerequisites": "javascript",
-      "isDone": false
-    },
-    {
-      "task": "learn node",
-      "prerequisites": "javascript,HTML",
+      "task": "learn C++",
+      "prerequisites": "basic c programming master",
       "isDone": false,
       "id": 3
+    }
+  ],
+  "books": [
+    {
+      "id": 1
     },
     {
-      "id": 4,
-      "task": "learn devops",
-      "prerequisites": "git",
-      "isDone": false
+      "id": 2
     },
     {
-      "task": "learn cloud(AWS Azure)",
-      "prerequisites": "linux, basic programming master",
-      "isDone": false,
-      "id": 5
+      "id": 3,
+      "title": "sss",
+      "auther": "aa",
+      "genre": "ddd"
+    }
+  ],
+  "defects": [
+    {
+      "id": 1,
+      "category": "UI",
+      "description": "csafWAf",
+      "priority": "2",
+      "userId": 121
+    }
+  ],
+  "users": [
+    {
+      "id": 121,
+      "name": "nikhil",
+      "designation": "trainer",
+      "password": "123"
     },
     {
-      "task": "learn data science",
-      "prerequisites": "linear algebra , basic maths",
-      "isDone": false,
-      "id": 6
+      "id": 122,
+      "name": "admin",
+      "designation": "trainer",
+      "password": "abc"
     }
   ]
 }

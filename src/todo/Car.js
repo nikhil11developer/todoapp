@@ -6,10 +6,40 @@ function Football() {
     alert(a);
   }
 
+  const SaveBook = async () => {
+
+
+
+
+
+    const postoption = {
+
+      'method': 'POST',
+
+      'body': JSON.stringify({
+
+        title: 'sss', auther: 'aa', genre: 'ddd'
+
+      }),
+
+      'header': { "Content-type": "application/json" }
+
+    }
+
+    const data = await fetch(`http://localhost:5000/books`, postoption)
+
+    const response = await data.json()
+
+    console.log(response)
+
+  }
   return (
-    <button onClick={() => shoot("Goal!")}>Take the shot!</button>
+    <Button variant="primary" onClick={()=>SaveBook()}  >
+
+        Submit
+
+      </Button>
   );
 }
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Football />);
+
